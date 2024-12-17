@@ -271,10 +271,12 @@ h1 {
     }
   
     .dropdown-menu {
-        margin-left: 73%; 
-        width: 360px; 
+        width: 1000%; 
         height: 350px; 
+    }
 
+    .dropdown-item {
+        transform: translateX(6.5%);
     }
 
     .intro-updates-container {
